@@ -3,7 +3,6 @@ html {
 }
 body {
     font-family: 'Quicksand', sans-serif;
-    height: 200vh;
 }
 #header {
     background-color: #262626;
@@ -16,6 +15,7 @@ body {
     transition: 0.1s;
 }
 #content {
+    height: 80vh;
     transition: 0.1s;
 }
 #arrow {
@@ -37,11 +37,23 @@ body {
     transition: 0.15s;
 }
 
+.footer {
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 10px;
+}
+
 a {
     color: #00A2FF;
 }
 a:hover {
     color: #00A2FF;
+}
+a.footer-link {
+    color: #929292;
+}
+a.footer-link:active {
+    color: #606060;
 }
 
 .font-xlg {

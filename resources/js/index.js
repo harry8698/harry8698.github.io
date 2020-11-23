@@ -12,7 +12,7 @@ function dynamicHeader() {
     arrow = document.getElementById('arrow');
     scrollDist = document.documentElement.scrollTop;
 
-    if (scrollDist < 50) {
+    if (scrollDist < 100) {
         arrow.style.opacity = 1;
         arrow.setAttribute("href", "#anchor");
     } else {
