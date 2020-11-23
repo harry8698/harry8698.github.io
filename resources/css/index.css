@@ -1,0 +1,67 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    height: 200vh;
+}
+#header {
+    background-color: #262626;
+    box-shadow: 5px 5px 20px;
+    transition: 0.1s;
+    height: 100vh;
+}
+#dummy {
+    height: 100vh;
+    transition: 0.1s;
+}
+#content {
+    transition: 0.1s;
+}
+#arrow {
+    transition: 1s;
+}
+#profile_picture {
+    width: 100%;
+    border-radius: 50%;
+}
+.projet_img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1.75rem;
+    box-shadow: 5px 5px 20px black;
+    transition: 0.15s;
+}
+.projet_img:hover {
+    box-shadow: 1px 1px 5px black;
+    transition: 0.15s;
+}
+
+a {
+    color: #00A2FF;
+}
+a:hover {
+    color: #00A2FF;
+}
+
+.font-xlg {
+    font-size: 2rem;
+}
+.font-lg {
+    font-size: 1.5rem;
+}
+.font-md {
+    font-size: 1rem;
+}
+.font-white {
+    color: white;
+}
+.font-black {
+    color: black;
+}
+.font-darkgray {
+    color: #606060;
+}
+.font-gray {
+    color: #929292;
+}
