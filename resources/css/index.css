@@ -7,7 +7,6 @@ body {
 #header {
     background-color: #262626;
     box-shadow: 5px 5px 20px;
-    transition: 0.1s;
     height: 100vh;
 }
 #dummy {
